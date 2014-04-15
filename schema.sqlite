@@ -1,0 +1,2 @@
+CREATE TABLE "floors" ("id" int PRIMARY KEY  NOT NULL , "house" int NOT NULL , "level" int NOT NULL , "image"  NOT NULL );
+CREATE TABLE "houses" ("id" int PRIMARY KEY ,"address" varchar NOT NULL,"phone" varchar,"floors" int,"modified" DATETIME,"community" VARCHAR,"complexity" int,"adults" int,"children" int,"elderly" int, "pets" int, "disability" varchar, "combustables" varchar, "weapons" BOOL, "salvage" int);
